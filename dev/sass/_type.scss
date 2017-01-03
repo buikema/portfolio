@@ -1,0 +1,212 @@
+$title-font-stack: 'Josefin Slab', serif;
+$body-font-stack: 'PT Sans', Helvetica, Arial, sans-serif;
+
+$primary-theme-color: rgba(106,159,181,1);
+$body-heading-color: rgba(49,49,49,1);
+$body-text-color: rgba(81,81,81,1);
+$body-strong-text-color: rgba(48,48,48,1);
+$body-background-color: rgba(255,255,255,1);
+$body-abbr-text-color: rgba(85,85,85,1);
+// Sidebar title (Drew Buikema) text
+$sidebar-title-color: rgba(255,255,255,1);
+// Links in sidebar navigation
+$sidebar-link-color: rgba(255,255,255,1);
+// sidebar description and legal matter
+$sidebar-description-color: rgba(255,255,255,.5);
+
+$blockquote-text-color: #7a7a7a;
+$table-background-color: rgba(249,249,249,1);
+$code-background-color: rgba(249,249,249,1);
+$message-text-color: #717171;
+$message-background-color: #f9f9f9;
+$masthead-title-color: #505050;
+$masthead-title-link-color: #505050;
+$masthead-small-title-color: #c0c0c0;
+$post-page-title-link-color: #303030;
+$post-date-text-color: #9a9a9a;
+$post-related-list-small-text-color: #999;
+$pagination-text-color: #ccc;
+
+html {
+    font-family: $body-font-stack;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+  color: $body-text-color;
+  background-color: $body-background-color;
+}
+
+@media (min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+// Headings 
+h1, h2, h3, h4, h5, h6 {
+    font-family: $title-font-stack;
+    font-weight: 400;
+    line-height: 1.25;
+    color: $body-heading-color;
+    text-rendering: optimizeLegibility;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4, h5, h6 {
+    font-size: 1rem;
+}
+
+strong {
+    color: $body-strong-text-color;
+}
+dt {
+    font-weight: bold;
+}
+blockquote {
+  color: $blockquote-text-color;
+}
+
+// Sidebar
+
+// Sidebar type
+.sidebar {
+    text-align: center;
+    color: $sidebar-description-color;
+    background-color: $primary-theme-color;
+}
+@media (min-width: 48em) {
+    .sidebar {
+        text-align: left;
+    }
+}
+.sidebar-about h1 {
+    color: $sidebar-title-color;
+    font-family: $title-font-stack;
+    font-weight: 300;
+    font-size: 3.6rem;
+}
+.sidebar-nav-item.active {
+    font-weight: bold;
+}
+
+// Sidebar links
+.sidebar a {
+    color: $sidebar-link-color;
+}
+
+// Tables
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+    background-color: $table-background-color;
+}
+
+// Code blocks
+code,
+pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+    font-size: 85%;
+    color: #bf616a;
+    background-color: $code-background-color;
+}
+pre {
+    font-size: .8rem;
+    line-height: 1.4;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: $code-background-color;
+}
+pre code {
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+}
+
+// Abbreviations
+abbr {
+    font-size: 85%;
+    font-weight: bold;
+    color: $body-abbr-text-color;
+    text-transform: uppercase;
+}
+
+// Custom type
+
+// Posts and pages
+// Each post is wrapped in `.post` and is used on default and post layouts. Each page is wrapped in `.page` and is only used on the page layout.
+
+// Blog post or page title
+.page-title,
+.post-title,
+.post-title a {
+    color: $post-page-title-link-color;
+}
+// Meta data line below post title
+.post-date {
+    color: $post-date-text-color;
+}
+// Related Posts
+.related-posts li small {
+    font-size: 75%;
+    color: $post-related-list-small-text-color;
+}
+
+// Pagination
+// Super lightweight (HTML-wise) blog pagination. `span`s are provide for when there are no more previous or next posts to show.
+.pagination {
+    color: $pagination-text-color;
+    text-align: center;
+}
+
+// Extend paragraphs with `.lead` for larger introductory text.
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+// Messages
+
+// Show alert messages to users. You may add it to single elements like a `<p>`, or to a parent if there are multiple elements to show.
+.message {
+  color: $message-text-color;
+  background-color: $message-background-color;
+}
+
+// Masthead
+
+// Super small header above the content for site name and short description.
+.masthead-title {
+  color: $masthead-title-color;
+}
+.masthead-title a {
+  color: $masthead-title-link-color;
+}
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: $masthead-small-title-color;
+  letter-spacing: 0;
+}

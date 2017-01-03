@@ -1,0 +1,32 @@
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+// No link underlining for site title (Drew Buikema) in the sidebar
+.sidebar-about {
+    a:hover, a:focus {
+        text-decoration: none;
+    }
+}
+
+// Related Posts
+.related-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+.related-posts li a:hover small {
+  color: inherit;
+}
+
+// Pagination
+// Only provide a hover state for linked pagination items
+a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
