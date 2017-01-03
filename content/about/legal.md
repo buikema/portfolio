@@ -1,6 +1,6 @@
 +++
 Description = "All the legal bits for this website"
-date = "2016-10-10T12:18:18-04:00"
+date = "2016-05-20T21:47:43-04:00"
 title = "The Legal Stuff"
 Categories = ["Legal","About"]
 Tags = ["legal","about","licenses"]
