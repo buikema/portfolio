@@ -1,0 +1,7 @@
+languageCode = "en-us"
+title = "Drew Buikema"
+baseurl = "http://buikema.work"
+theme = "hyde"
+
+[params]
+  themeColor = "theme-base-0d"
