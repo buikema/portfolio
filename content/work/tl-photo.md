@@ -1,10 +1,10 @@
 +++
 date = "2016-12-18T17:25:17-05:00"
-draft = true
 Categories = ["Development", "Work"]
 Description = "Designing a branding identity and simple business website for a small photography studio."
 Tags = ["development", "images", "brand-identity", "type", "responsive"]
 title = "Tiffany Leigh Photography"
+draft = true
 
 +++
 
