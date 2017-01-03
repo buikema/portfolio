@@ -1,11 +1,9 @@
 languageCode = "en-us"
 title = "Drew Buikema"
 baseurl = "http://buikema.work"
-theme = "hyde"
 enableRobotsTXT = "true"
 
 [params]
-  themeColor = "theme-base-0d"
   subtitle = "A personal portfolio"
   description = "A place to organize and discuss projects, mostly from the web."
   authorName = "Drew Buikema"
