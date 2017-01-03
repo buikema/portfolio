@@ -1,8 +1,8 @@
 +++
-Categories = ["About","GoLang"]
+Categories = ["About","Golang"]
 Tags = ["development","golang","hugo"]
 Description = "A welcome statement and explanation of buikema.work"
-date = "2017-01-02T19:42:10-05:00"
+date = "2016-05-19T21:47:43-04:00"
 title = "Welcome"
 
 +++

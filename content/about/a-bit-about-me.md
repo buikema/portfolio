@@ -4,7 +4,7 @@ menu = "main"
 Categories = ["About"]
 Tags = ["development","drew","social"]
 Description = "Brief personal and work history as well as where to find me on the internet."
-date = "2017-01-02T19:32:23-05:00"
+date = "2016-09-28T20:45:09-04:00"
 
 +++
 
