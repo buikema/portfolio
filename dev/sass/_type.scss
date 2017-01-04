@@ -24,7 +24,7 @@ $message-background-color: #f9f9f9;
 $masthead-title-color: #505050;
 $masthead-title-link-color: #505050;
 $masthead-small-title-color: #c0c0c0;
-$post-page-title-link-color: #303030;
+$post-page-title-color: #303030;
 $post-date-text-color: #9a9a9a;
 $post-related-list-small-text-color: #999;
 $pagination-text-color: #ccc;
@@ -32,16 +32,16 @@ $pagination-text-color: #ccc;
 html {
     font-family: $body-font-stack;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 body {
   color: $body-text-color;
   background-color: $body-background-color;
 }
 
-@media (min-width: 38em) {
+@media (min-width: 36em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -92,28 +92,26 @@ blockquote {
 
 // Sidebar type
 .sidebar {
-    text-align: center;
     color: $sidebar-description-color;
     background-color: $primary-theme-color;
+    line-height: 1.5;
+    text-align: right;
+}
+.sidebar-detail {
+    font-size: 1em;
+}
+@media (min-width: 22em) {
+    .sidebar-detail {
+        font-size: 1.1em;
+    }
 }
 @media (min-width: 48em) {
     .sidebar {
         text-align: left;
     }
 }
-.sidebar-about h1 {
-    color: $sidebar-title-color;
-    font-family: $title-font-stack;
-    font-weight: 300;
-    font-size: 3.6rem;
-}
 .sidebar-nav-item.active {
     font-weight: bold;
-}
-
-// Sidebar links
-.sidebar a {
-    color: $sidebar-link-color;
 }
 
 // Tables
@@ -162,13 +160,13 @@ abbr {
 
 // Blog post or page title
 .page-title,
-.post-title,
-.post-title a {
-    color: $post-page-title-link-color;
+.post-title {
+    color: $post-page-title-color;
 }
 // Meta data line below post title
 .post-date {
     color: $post-date-text-color;
+    font-style: italic;
 }
 // Related Posts
 .related-posts li small {
@@ -185,8 +183,13 @@ abbr {
 
 // Extend paragraphs with `.lead` for larger introductory text.
 .lead {
-    font-size: 1.25rem;
+    font-size: 1em;
     font-weight: 400;
+}
+@media (min-width: 24em) {
+    .lead {
+        font-size: 1.25em;
+    }
 }
 
 // Messages

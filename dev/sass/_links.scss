@@ -1,12 +1,17 @@
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: $primary-theme-color;
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
   text-decoration: underline;
+}
+
+// Sidebar links
+.sidebar a {
+    color: $sidebar-link-color;
 }
 
 // No link underlining for site title (Drew Buikema) in the sidebar
