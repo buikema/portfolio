@@ -1,9 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Josefin+Slab:300,400);
 /*
  * Body resets
  *
  * Update the foundational and global aspects of the page.
  */
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Josefin+Slab:300,400);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -50,6 +50,456 @@ blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4; }
+
+@media (min-width: 36em) {
+  html {
+    font-size: 18px; } }
+@media (min-width: 48em) {
+  html {
+    font-size: 16px; } }
+@media (min-width: 58em) {
+  html {
+    font-size: 18px; } }
+@media (min-width: 68em) {
+  html {
+    font-size: 20px; } }
+body {
+  color: #515151;
+  background-color: white; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Slab", serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #313131; }
+
+h1 {
+  font-size: 2.074em; }
+
+h2, h3 {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.44em; }
+
+h2 {
+  font-weight: 700; }
+
+h4, h5, h6 {
+  font-size: 1em;
+  font-weight: 700; }
+
+strong {
+  color: #303030; }
+
+dt {
+  font-weight: bold; }
+
+blockquote {
+  color: #7a7a7a; }
+
+.sidebar {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #6a9fb5;
+  line-height: 1.5;
+  text-align: right; }
+
+.sidebar-about p {
+  line-height: 1.25; }
+
+@media (min-width: 48em) {
+  .sidebar {
+    text-align: left; } }
+.sidebar-nav-item.active {
+  font-weight: bold; }
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9; }
+
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace; }
+
+code {
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9; }
+
+pre {
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9; }
+
+pre code {
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent; }
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555555;
+  text-transform: uppercase; }
+
+.page-title,
+.post-title {
+  color: #303030; }
+
+.post-date {
+  color: #9a9a9a;
+  font-style: italic; }
+
+.related-posts li small {
+  font-size: 75%;
+  color: #999; }
+
+.pagination {
+  color: #ccc;
+  text-align: center; }
+
+.lead {
+  font-size: 1em;
+  font-weight: 400; }
+
+@media (min-width: 24em) {
+  .lead {
+    font-size: 1.25em; } }
+.message {
+  color: #717171;
+  background-color: #f9f9f9; }
+
+.masthead-title {
+  color: #505050; }
+
+.masthead-title a {
+  color: #505050; }
+
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0; }
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+  color: #6a9fb5;
+  text-decoration: none; }
+
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline; }
+
+.sidebar a {
+  color: white; }
+
+.sidebar-about a:hover, .sidebar-about a:focus {
+  text-decoration: none; }
+
+.related-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none; }
+
+.related-posts li a:hover small {
+  color: inherit; }
+
+a.pagination-item:hover {
+  background-color: #f5f5f5; }
+
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem; }
+
+h2 {
+  margin-top: 1rem; }
+
+h3 {
+  margin-top: 1.5rem; }
+
+h4, h5, h6 {
+  margin-top: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+dd {
+  margin-bottom: .5rem; }
+
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff; }
+
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5; }
+
+code {
+  padding: .25em .5em;
+  border-radius: 3px; }
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem; }
+
+pre code {
+  padding: 0; }
+
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px; }
+
+.highlight pre {
+  margin-bottom: 0; }
+
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  border-left: .25rem solid #e5e5e5; }
+
+blockquote p:last-child {
+  margin-bottom: 0; }
+
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem; } }
+img {
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+  max-width: 100%; }
+
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse; }
+
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5; }
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+.container {
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Content Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+.content {
+  padding: 2rem 1rem; }
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 38rem;
+    margin-left: 18rem;
+    margin-right: 2rem; } }
+@media (min-width: 64em) {
+  .content {
+    margin-left: 20rem;
+    margin-right: 4rem; } }
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+.sidebar {
+  padding: 1rem; }
+
+.sidebar-title {
+  float: left;
+  width: 1.6em;
+  margin: 2.4em auto 0 0; }
+
+@media (min-width: 22em) {
+  .sidebar-title {
+    width: 1.8em;
+    margin: 1em auto 0 0; } }
+@media (min-width: 24em) {
+  .sidebar-title {
+    margin: 2em auto 0 0; } }
+@media (min-width: 28em) {
+  .sidebar-title {
+    margin: 5em auto 0 0;
+    width: 25%; } }
+@media (min-width: 30em) {
+  .sidebar-title {
+    margin: 4em auto 0 0;
+    width: 6em; } }
+/* About section - Site Lead */
+.sidebar-detail {
+  margin: 1em 0 1em 2em; }
+
+@media (min-width: 28em) {
+  .sidebar-detail {
+    margin: 1em 0 1em auto;
+    width: 65%; } }
+.sidebar-about {
+  margin: 0 0 0 auto; }
+
+/* Sidebar nav */
+.sidebar-nav {
+  padding-left: 0; }
+
+.sidebar-nav-item {
+  display: block; }
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline; }
+
+.sidebar-legal {
+  margin: auto 0 0 0; }
+
+@media (min-width: 48em) {
+  .sidebar {
+    padding: 2rem 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16em;
+    text-align: left; }
+
+  .sidebar-title {
+    float: clear;
+    margin: 0;
+    width: 100%; }
+
+  .sidebar-detail {
+    margin: 0;
+    width: auto; }
+
+  .sidebar-sticky {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem; } }
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+.page,
+.post {
+  margin-bottom: 4em; }
+
+.page-title,
+.post-title {
+  margin-top: 0; }
+
+/* Meta data line below post title */
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem; }
+
+/* Related posts */
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee; }
+
+.related-posts {
+  padding-left: 0;
+  list-style: none; }
+
+.related-posts h3 {
+  margin-top: 0; }
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+.pagination {
+  overflow: hidden;
+  /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem; }
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee; }
+
+.pagination-item:first-child {
+  margin-bottom: -1px; }
+
+@media (min-width: 30em) {
+  .pagination {
+    margin: 3rem 0; }
+
+  .pagination-item {
+    float: left;
+    width: 50%; }
+
+  .pagination-item:first-child {
+    margin-bottom: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+
+  .pagination-item:last-child {
+    margin-left: -1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; } }
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+.masthead {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem; }
+
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem; }
 
 .hll {
   background-color: #ffffcc; }
@@ -249,493 +699,5 @@ q:before, q:after {
 .css .o + .nt,
 .css .nt + .nt {
   color: #9999FF; }
-
-html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.4; }
-
-body {
-  color: #515151;
-  background-color: white; }
-
-@media (min-width: 36em) {
-  html {
-    font-size: 18px; } }
-@media (min-width: 48em) {
-  html {
-    font-size: 16px; } }
-@media (min-width: 58em) {
-  html {
-    font-size: 20px; } }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Josefin Slab", serif;
-  font-weight: 400;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility; }
-
-h1 {
-  font-size: 2rem; }
-
-h2 {
-  font-size: 1.5rem; }
-
-h3 {
-  font-size: 1.25rem; }
-
-h4, h5, h6 {
-  font-size: 1rem; }
-
-strong {
-  color: #303030; }
-
-dt {
-  font-weight: bold; }
-
-blockquote {
-  color: #7a7a7a; }
-
-.sidebar {
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #6a9fb5;
-  line-height: 1.5;
-  text-align: right; }
-
-.sidebar-detail {
-  font-size: 1em; }
-
-@media (min-width: 22em) {
-  .sidebar-detail {
-    font-size: 1.1em; } }
-@media (min-width: 48em) {
-  .sidebar {
-    text-align: left; } }
-.sidebar-nav-item.active {
-  font-weight: bold; }
-
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9; }
-
-code,
-pre {
-  font-family: Menlo, Monaco, "Courier New", monospace; }
-
-code {
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9; }
-
-pre {
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9; }
-
-pre code {
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent; }
-
-abbr {
-  font-size: 85%;
-  font-weight: bold;
-  color: #555555;
-  text-transform: uppercase; }
-
-.page-title,
-.post-title {
-  color: #303030; }
-
-.post-date {
-  color: #9a9a9a;
-  font-style: italic; }
-
-.related-posts li small {
-  font-size: 75%;
-  color: #999; }
-
-.pagination {
-  color: #ccc;
-  text-align: center; }
-
-.lead {
-  font-size: 1em;
-  font-weight: 400; }
-
-@media (min-width: 24em) {
-  .lead {
-    font-size: 1.25em; } }
-.message {
-  color: #717171;
-  background-color: #f9f9f9; }
-
-.masthead-title {
-  color: #505050; }
-
-.masthead-title a {
-  color: #505050; }
-
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0; }
-
-/*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/poole.
- */
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem; }
-
-h2 {
-  margin-top: 1rem; }
-
-h3 {
-  margin-top: 1.5rem; }
-
-h4, h5, h6 {
-  margin-top: 1rem; }
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-dd {
-  margin-bottom: .5rem; }
-
-hr {
-  position: relative;
-  margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff; }
-
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5; }
-
-code {
-  padding: .25em .5em;
-  border-radius: 3px; }
-
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem; }
-
-pre code {
-  padding: 0; }
-
-.highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px; }
-
-.highlight pre {
-  margin-bottom: 0; }
-
-blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  border-left: .25rem solid #e5e5e5; }
-
-blockquote p:last-child {
-  margin-bottom: 0; }
-
-@media (min-width: 30em) {
-  blockquote {
-    padding-right: 5rem;
-    padding-left: 1.25rem; } }
-img {
-  display: block;
-  margin: 0 0 1rem;
-  border-radius: 5px;
-  max-width: 100%; }
-
-table {
-  margin-bottom: 1rem;
-  width: 100%;
-  border: 1px solid #e5e5e5;
-  border-collapse: collapse; }
-
-td,
-th {
-  padding: .25rem .5rem;
-  border: 1px solid #e5e5e5; }
-
-/*
- * Container
- *
- * Center the page content.
- */
-.container {
-  max-width: 38rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto; }
-
-/* Content Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-.content {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
-
-@media (min-width: 48em) {
-  .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem; } }
-@media (min-width: 64em) {
-  .content {
-    margin-left: 22rem;
-    margin-right: 4rem; } }
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-/* Blue */
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5; }
-
-/* No `:visited` state is required by default (browsers will use `a`) */
-a {
-  color: #6a9fb5;
-  text-decoration: none; }
-
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: underline; }
-
-.sidebar a {
-  color: white; }
-
-.sidebar-about a:hover, .sidebar-about a:focus {
-  text-decoration: none; }
-
-.related-posts li a:hover {
-  color: #268bd2;
-  text-decoration: none; }
-
-.related-posts li a:hover small {
-  color: inherit; }
-
-a.pagination-item:hover {
-  background-color: #f5f5f5; }
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-.sidebar {
-  padding: 1rem; }
-
-.sidebar-title {
-  float: left;
-  width: 1.6em;
-  margin: 2.4em auto 0 0; }
-
-@media (min-width: 22em) {
-  .sidebar-title {
-    width: 1.8em;
-    margin: 1em auto 0 0; } }
-@media (min-width: 24em) {
-  .sidebar-title {
-    margin: 2em auto 0 0; } }
-@media (min-width: 28em) {
-  .sidebar-title {
-    margin: 5em auto 0 0;
-    width: 25%; } }
-@media (min-width: 30em) {
-  .sidebar-title {
-    margin: 4em auto 0 0;
-    width: 6em; } }
-/* About section - Site Lead */
-.sidebar-detail {
-  margin: 1em 0 1em 2em; }
-
-@media (min-width: 28em) {
-  .sidebar-detail {
-    margin: 1em 0 1em auto;
-    width: 65%; } }
-.sidebar-about {
-  margin: 0 0 0 auto; }
-
-/* Sidebar nav */
-.sidebar-nav {
-  padding-left: 0; }
-
-.sidebar-nav-item {
-  display: block; }
-
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline; }
-
-.sidebar-legal {
-  margin: auto 0 0 0; }
-
-@media (min-width: 48em) {
-  .sidebar {
-    padding: 2rem 1rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18em;
-    text-align: left; }
-
-  .sidebar-title {
-    float: clear;
-    margin: 0;
-    width: 100%; }
-
-  .sidebar-detail {
-    margin: 0;
-    width: auto; }
-
-  .sidebar-sticky {
-    position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-    left: 1rem; } }
-/*
- * Posts and pages
- *
- * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is only used on the page layout.
- */
-.page,
-.post {
-  margin-bottom: 4em; }
-
-.page-title,
-.post-title {
-  margin-top: 0; }
-
-/* Meta data line below post title */
-.post-date {
-  display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem; }
-
-/* Related posts */
-.related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-top: 1px solid #eee; }
-
-.related-posts {
-  padding-left: 0;
-  list-style: none; }
-
-.related-posts h3 {
-  margin-top: 0; }
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-.masthead {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem; }
-
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0; }
-
-/*
- * Messages
- *
- * Show alert messages to users. You may add it to single elements like a `<p>`,
- * or to a parent if there are multiple elements to show.
- */
-.message {
-  margin-bottom: 1rem;
-  padding: 1rem; }
-
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
-.pagination {
-  overflow: hidden;
-  /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem; }
-
-/* Pagination items can be `span`s or `a`s */
-.pagination-item {
-  display: block;
-  padding: 1rem;
-  border: 1px solid #eee; }
-
-.pagination-item:first-child {
-  margin-bottom: -1px; }
-
-@media (min-width: 30em) {
-  .pagination {
-    margin: 3rem 0; }
-
-  .pagination-item {
-    float: left;
-    width: 50%; }
-
-  .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px; }
-
-  .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px; } }
 
 /*# sourceMappingURL=main.css.map */

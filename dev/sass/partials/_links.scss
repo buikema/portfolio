@@ -35,3 +35,11 @@ a:focus {
 a.pagination-item:hover {
   background-color: #f5f5f5;
 }
+
+// Themes
+// Blue
+
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: $primary-theme-color;
+}

@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Josefin+Slab:300,400);
+
+// Typography
+$title-font-stack: 'Josefin Slab', serif;
+$body-font-stack: 'PT Sans', Helvetica, Arial, sans-serif;
+
+
+
+// Colors
+$primary-theme-color: rgba(106,159,181,1);
+$body-heading-color: rgba(49,49,49,1);
+$body-text-color: rgba(81,81,81,1);
+$body-strong-text-color: rgba(48,48,48,1);
+$body-background-color: rgba(255,255,255,1);
+$body-abbr-text-color: rgba(85,85,85,1);
+// Sidebar title (Drew Buikema) text
+$sidebar-title-color: rgba(255,255,255,1);
+// Links in sidebar navigation
+$sidebar-link-color: rgba(255,255,255,1);
+// sidebar description and legal matter
+$sidebar-description-color: rgba(255,255,255,.5);
+
+$blockquote-text-color: #7a7a7a;
+$table-background-color: rgba(249,249,249,1);
+$code-background-color: rgba(249,249,249,1);
+$message-text-color: #717171;
+$message-background-color: #f9f9f9;
+$masthead-title-color: #505050;
+$masthead-title-link-color: #505050;
+$masthead-small-title-color: #c0c0c0;
+$post-page-title-color: #303030;
+$post-date-text-color: #9a9a9a;
+$post-related-list-small-text-color: #999;
+$pagination-text-color: #ccc;
