@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Drew Buikema"
-baseurl = "http://buikema.work"
+baseurl = "https://buikema.work"
 enableRobotsTXT = "true"
 
 [params]
