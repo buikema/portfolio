@@ -121,6 +121,11 @@ th {
 .content {
   padding:    2rem 1rem;
 }
+.error {
+    background-color: lightgrey;
+    font-style: bold;
+}
+
 @media (min-width: 48em) {
   .content {
     max-width: 38rem;
@@ -134,3 +139,4 @@ th {
     margin-right: 4rem;
   }
 }
+
