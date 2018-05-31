@@ -1,17 +1,17 @@
 +++
 Categories = ["Development", "Work"]
-Description = "A small responsive redesign focussing on accessibility."
+Description = "A small responsive redesign for a homeowners' association focussing on accessibility."
 Tags = ["development", "accessibility", "type", "responsive"]
 date = "2016-09-28T20:44:39-04:00"
 title = "Honey Creek Meadows"
 
 +++
 
-Honey Creek Meadows is a small homeowners association in Pinckney, Michigan. Their [original website](http://www.hcmaofpinckney.net) was from the table layout era, so I’m trying to build a responsive update.
+Honey Creek Meadows is a small homeowners association in Pinckney, Michigan. Their [original website](http://www.hcmaofpinckney.net) was from the table layout era, so I’m trying to build a responsive, accessible update.
 
 [![Screenshot of original Honey Creek Meadows website](/images/honey-creek-reference/homepage.png)](/images/honey-creek-reference/homepage.png)
 
-[New Honey Creek Development Site](/honey-creek-test/index.html) | [Project Github Repository](https://github.com/buikema/honey-creek)
+[New Honey Creek Development Site](https://buikema.github.io/honey-creek-test/index.html) | [Project Github Repository](https://github.com/buikema/honey-creek)
 
 The website is ultimately not visited very often (I, as a resident in the neighborhood, didn't realize it existed for years.) It’s an informational bulletin board, so I thought this would be a good opportunity to work on a few ideas that are **unfortunately** not the highest of priorities on many websites. Throughout the project I wanted to focus on accessibility and readability.
 
@@ -19,7 +19,7 @@ The website is ultimately not visited very often (I, as a resident in the neighb
 
 *At least in theory*, the default system font within an operating system or web browser is designed for optimal readability. A project that values an easy to read website above brand identity seemed like an ideal situation to see what can be done within the default system UI font-family.
 
-[Marcin Wichary’s](http://www.twitter.com/mwichary) writing about [different approaches to using the default system font on a website](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/) convinced me that this could work for the project. Here is the method Marcin’s supported:
+[Marcin Wichary’s](http://www.twitter.com/mwichary) writing about [different approaches to using the default system font on a website](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/) convinced me that this could work for the project. Here is the method Marcin supported:
 
 ```css
 body {

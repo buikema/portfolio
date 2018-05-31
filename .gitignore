@@ -1,7 +1,10 @@
 
-*.scssc
-
-*.scssc
-
 public/
 
+.vscode/
+
+.sass-cache/
+
+*.scssc
+
+*.scssc

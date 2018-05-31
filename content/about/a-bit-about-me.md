@@ -14,7 +14,7 @@ Carpenters, welders, and heavy equipment operators; it seems my family has alway
 
 Working in a broad range of fields —from [atmospheric research](/post/archives) as an NSF fellow to managing ninety employees within a medium cinema company— has provided the perspective that I rely on to develop websites and tools for the web.
 
-I grew up in West Michigan ([one of the most beautiful parts of the mitt](https://www.flickr.com/photos/drewbuikema/28149708346/in/dateposted-public).) And currently reside outside Ann Arbor, where I’ve lived ever since attending the [University of Michigan](http://lsa.umich.edu).
+I grew up in West Michigan ([one of the most beautiful parts of the mitt](https://www.flickr.com/photos/drewbuikema/28149708346/in/dateposted-public).) And spent over a decade in Ann Arbor (Go Blue.) I've just recently made my home north of Chicago.
 
 ## Find Me Around the Internet
 

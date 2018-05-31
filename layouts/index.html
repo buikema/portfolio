@@ -6,17 +6,13 @@
     <div class="content container">
       <div class="posts">
 
-        <!--Renders my first post - a welcome statement-->
-        {{ range last 1 .Data.Pages }}
         <div class="post">
-          <h1 class="post-title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </h1>
-          {{ .Content }}
+          <h1 class="post-title">Welcome</h1>
+          <p>This website will serve as a portfolio and grounds for experimentation with the <a href="https://gohugo.io/">Hugo</a> static site generator and <a href="http://themes.gohugo.io/hyde/">Hyde theme</a>.</p>
+          <p>Find <a href="https://github.com/spf13/hugo">Hugo</a> and <a href="https://github.com/spf13/hyde">Hyde</a> on GitHub.</p>
         </div>
-        {{ end }}
 
-        <!--Renders 4 most recent posts in reverse cronological order-->
+        <!--Renders 5 most recent posts in reverse cronological order-->
         {{ range first 4 .Data.Pages }}
         <div class="post">
           <h1 class="post-title">
